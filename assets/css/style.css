@@ -1,0 +1,132 @@
+:root {
+    --cor-background: #282A36;
+    --cor-primaria: #44475A;
+    --cor-secundaria: #6272A4;
+    --color-font: #F8F8F2;
+    --links-anchors: #BD93F9;
+    --code-font: #F1FA8C;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cor-background);
+}
+
+header {
+    text-align: center; 
+}
+
+.logo {
+    display: inline-block; 
+}
+
+.img-logo {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, p {
+    color: var(--color-font);
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+ul { list-style: none; 
+    padding-left: 5px; 
+}
+
+ul, li {
+    margin-bottom: 10px;
+}
+
+a { 
+    color: var(--links-anchors); 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 0 6px;
+    background-color: var(--code-font);
+    border-radius: 2px;
+    color: var(--cor-primaria);
+}
+
+.logo-js {
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.ex-code {
+    width: 100%;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.content-icon {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.arrow-icon {
+    width: 16px;
+}
+
+.bar {
+    background-color: var(--cor-secundaria);
+    padding:15px;
+    border-top: solid 1px var(--cor-secundaria);
+    border-bottom: solid 1px var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bar a {
+    color: #282A36;
+    font-family: "Nanum Gothic Coding", monospace, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.bar a:hover {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--code-font);
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px var(--cor-secundaria);
+}
+.anchors {
+    border-left: solid 1px var(--cor-secundaria);
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px var(--cor-secundaria);
+}
+figure {
+    text-align: center;
+}

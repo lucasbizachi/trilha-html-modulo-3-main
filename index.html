@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>   
+        <div class="logo" role="banner" aria-label="Logo da CodePédia">
+            <img class="img-logo" src="assets/images/CodePédia.png" width="200"/>
+        </div>
+    </header>
+
+    <nav class="bar" role="navigation" aria-label="Menu de navegação">
+    <a href="#">Página Inicial</a>
+    <a href="#">Sobre Nós</a>
+    <a href="#">Linguagens de Programação</a>
+    <a href="#">Tutoriais</a>
+    <a href="#">Artigos</a>
+    <a href="#">Forum/Comunidade</a>
+    <a href="#">Contato</a>
+    </nav>
+
+    <main class="content">
+        <aside class="sidebar">
+            <h2 id="links-uteis">Links úteis</h2>
+            <ul aria-labelledby="links-uteis">
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" title="Rede de Desenvolvedores da Mozilla">Mdn Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/js/" target="_blank" title="W3Schools é uma escola para desenvolvedores web.">W3Schools</a></li>
+                <li><a href="https://nodejs.org/en" title="Site framework node.js">Node JS</a></li>
+                <li><a href="https://www.typescriptlang.org/" title="Site TypeScript">TypeScript</a></li>
+                <li><a href="https://codepen.io/" title="Plataforma para estudar HTML, CSS e JavaScript online.">CodePen</a></li>
+                <li><a href="https://www.dio.me/"title="Plataforma com diversos cursos JavaScript ">DIO</a></li>
+            </ul>
+        </aside>
+
+        <section class="main">
+            
+            <h1 id="voltar" aria-describedby="descricao-voltar"> O que é JavaScript?</h1>
+
+            <p>
+                JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional). Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo. É atualmente a principal linguagem para programação client-side em navegadores web. É também bastante utilizada do lado do servidor através de ambientes como o <a href="">node.js</a> .
+            </p>
+
+            <p>
+                Como uma linguagem multiparadigma, o JavaScript suporta estilos de programação orientados a eventos, funcionais e imperativos (incluindo orientado a objetos e prototype-based), apresentando recursos como fechamentos (closures) e funções de alta ordem comumente indisponíveis em linguagens populares como Java e C++. Possui APIs para trabalhar com texto, matrizes, datas, expressões regulares e o DOM, mas a linguagem em si não inclui nenhuma E/S, como instalações de rede, armazenamento ou gráficos, contando com isso no ambiente host em que está embutido.
+            </p>
+
+            <p>
+                Foi originalmente implementada como parte dos navegadores web para que scripts pudessem ser executados do lado do cliente e interagissem com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador, realizando comunicação assíncrona e alterando o conteúdo do documento exibido, porém os mecanismos JavaScript agora estão incorporados em muitos outros tipos de software host, incluindo em servidores e bancos de dados da Web e em programas que não são da Web, como processadores de texto e PDF, e em tempo de execução ambientes que disponibilizam JavaScript para escrever aplicativos móveis e de desktop, incluindo widgets de área de trabalho.
+            </p>
+
+            <p>
+                Os termos Vanilla JavaScript e Vanilla JS se referem ao JavaScript não estendido por qualquer estrutura ou biblioteca adicional. Scripts escritos em Vanilla JS são códigos JavaScript simples.Embora existam semelhanças entre JavaScript e Java, incluindo o nome da linguagem, a sintaxe e as respectivas bibliotecas padrão, as duas linguagens são distintas e diferem muito no design; JavaScript foi influenciado por linguagens de programação como Self e Scheme. É baseada em <a href="">ECMAScript</a>, padronizada pela <a href="">Ecma international</a> nas especificações ECMA-262 e ISO/IEC 16262.
+            </p>
+
+            <figure>
+                <img class="logo-js" src="assets/images/js.png" alt="Logo JvaScript">
+                <figcaption>
+                    <p>
+                        "JavaScript" é uma marca comercial da <a href="">Oracle Corporation</a> nos Estados Unidos.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <hr>
+
+            <h2 id="historia">História</h2>
+
+            <div class="content-icon">
+                <img class="arrow-icon" src="assets/images/seta-para-cima.png" alt="Imagem seta para cima">
+                <a href="#voltar">Voltar</a>
+            </div>
+
+            <p>
+                Em 1993, o Centro Nacional de Aplicações de Supercomputação (NCSA), uma unidade da Universidade de Illinois em Urbana-Champaign, lançou o NCSA Mosaic, o primeiro navegador gráfico popular da Web, que desempenhou um papel importante na expansão do crescimento da nascente World Wide Web além do nicho NeXTSTEP onde a World Wide Web havia se formado três anos antes. Em 1994, uma empresa chamada Mosaic Communications foi fundada em Mountain View, na Califórnia, e empregou muitos dos autores originais do NCSA Mosaic para criar o Mosaic Netscape. No entanto, não compartilhou intencionalmente nenhum código com o NCSA Mosaic. O codinome interno do navegador da empresa era Mozilla, uma junção de "Mosaic and Godzilla". A primeira versão do navegador da Web, Mosaic Netscape 0.9, foi lançada no final de 1994. Em quatro meses, já havia conquistado três quartos do mercado de navegadores e se tornado o principal navegador da Web nos anos 90. Para evitar problemas de propriedade de marca registrada com o NCSA, o navegador foi posteriormente renomeado para Netscape Navigator no mesmo ano, e a empresa assumiu o nome de Netscape Communications. A Netscape Communications percebeu que a Web precisava se tornar mais dinâmica. Marc Andreessen, o fundador da empresa, acreditava que o HTML precisava de uma "linguagem de cola" que fosse fácil de usar por Web designers e programadores de meio período para montar componentes como imagens e plugins, onde o código poderia ser escrito diretamente na Web.
+            </p> 
+            
+            <p>
+                Em 1995, a Netscape Communications recrutou Brendan Eich com o objetivo de incorporar a linguagem de programação Scheme em seu Netscape Navigator. Antes que ele pudesse começar, a Netscape Communications colaborou com a Sun Microsystems para incluir na linguagem de programação mais estática do Netscape Navigator Sun, Java, a fim de competir com a Microsoft pela adoção de tecnologias e plataformas da Web. A Netscape Communications decidiu então que a linguagem de script que eles queriam criar complementaria o Java e deveria ter uma sintaxe semelhante, o que excluía a adoção de outras linguagens como Perl, Python, TCL ou Scheme. Para defender a ideia do JavaScript contra propostas concorrentes, a empresa precisava de um protótipo. Eich escreveu um em 10 dias, em maio de 1995.
+            </p>
+
+            <p>
+                Embora tenha sido desenvolvido sob o nome Mocha, a linguagem foi oficialmente chamada de LiveScript quando foi lançada em versões beta do Netscape Navigator 2.0 em setembro de 1995, mas foi renomeada para JavaScript quando foi lançada no Netscape Navigator 2.0 beta 3 Dezembro. A escolha final do nome causou confusão, dando a impressão de que a linguagem era uma derivação da linguagem de programação Java, e a escolha foi caracterizada como uma manobra de marketing da Netscape para dar ao JavaScript o status da linguagem da moda, o Java.
+            </p>
+            <p>
+                Há um equívoco comum de que o JavaScript foi influenciado por uma linguagem de script de página da Web desenvolvida pelo Nombas chamada Cmm (não confundir com o C posteriormente - criado em 1997). Brendan Eich, no entanto, nunca tinha ouvido falar de Cmm antes de criar o LiveScript. Os Nombas lançaram seus scripts de página da Web incorporados no Netscape, embora o script de página da Web não fosse um conceito novo, conforme mostrado pelo navegador da Web ViolaWWW. Nombas mais tarde passou a oferecer JavaScript em vez de Cmm em seu produto ScriptEase e fazia parte do grupo TC39 que padronizava o <a href="">ECMAScript</a>.
+            </p>
+
+            <hr>
+
+            <h2 id="backend">JavaScript Back-end</h2>
+
+            <div class="content-icon">
+                <img class="arrow-icon" src="assets/images/seta-para-cima.png" alt="Imagem seta para cima">
+                <a href="#voltar">Voltar</a>
+            </div>
+
+            <p>
+                Em dezembro de 1995, logo depois de lançar o JavaScript para navegadores, a Netscape introduziu uma implementação da linguagem para scripting server-side com o Netscape Enterprise Server. Desde 1996, o servidor da Web do IIS tem suportado a implementação do JavaScript - JScript do lado do servidor - em páginas ASP e .NET. Desde meados da década de 2000, foram introduzidas implementações adicionais de JavaScript no lado do servidor, como o Node.js em 2009. O <a href="">TypeScript</a> é uma linguagem de programação que adiciona tipagem ao JavaScript, sendo popular para uso no back-end
+            </p>
+
+            <hr>
+
+            <h2 id="padronizacao">Padronização</h2>
+
+            <div class="content-icon">
+                <img class="arrow-icon" src="assets/images/seta-para-cima.png" alt="Imagem seta para cima">
+                <a href="#voltar">Voltar</a>
+            </div>
+
+            <p>
+                Em novembro de 1996, a Netscape submeteu o JavaScript à ECMA International para criar uma especificação padrão, que outros fornecedores de navegador poderiam implementar com base no trabalho feito na Netscape. Isso levou ao lançamento oficial da especificação de linguagem ECMAScript publicada na primeira edição da norma ECMA-262 em junho de 1997, sendo o JavaScript a mais conhecida das implementações. ActionScript e JScript eram outras implementações bem conhecidas do ECMAScript.
+            </p>
+
+            <p>
+                O lançamento do ECMAScript 2 em junho de 1998 deu continuidade ao ciclo de processo de padrões, conforme algumas modificações do padrão internacional ISO / IEC 16262. ECMAScript 3 foi lançado em dezembro de 1999 e é a linha de base moderna para JavaScript. O trabalho original do ECMAScript 4 liderado por Waldemar Horwat (então na Netscape, agora no Google) começou em 2000. A Microsoft inicialmente participou e implementou algumas propostas em sua linguagem JScript .NET.
+            </p>
+
+            <p>
+                O próximo grande evento foi em 2005, com dois grandes acontecimentos na história do JavaScript. Primeiro, Brendan Eich e Mozilla juntaram-se novamente à Ecma International como um membro sem fins lucrativos e começaram a trabalhar no ECMAScript para XML (E4X), o padrão ECMA-357, que veio de ex-funcionários da Microsoft na BEA Systems (originalmente adquirida como Crossgain) . Isso levou a trabalhar em conjunto com a Macromedia (posteriormente adquirida pela Adobe Systems), que estava implementando o E4X no ActionScript 3 (o ActionScript 3 era um fork do ECMAScript 4 original).
+            </p>
+
+            <p>
+                Assim, juntamente com a Macromedia, o trabalho foi reiniciado no ECMAScript 4 com o objetivo de padronizar o que estava no ActionScript 3. Para isso, a Adobe Systems lançou a ActionScript Virtual Machine 2, codinome Tamarin, como um projeto de código aberto. Mas Tamarin e ActionScript 3 eram muito diferentes do JavaScript da web para convergir, como foi realizado pelas partes em 2007 e 2008. Ainda havia turbulência entre os vários jogadores; Douglas Crockford — então no Yahoo! — juntou forças com a Microsoft em 2007 para se opor ao ECMAScript 4, o que levou ao esforço do ECMAScript 3.1. O desenvolvimento do ECMAScript 4 nunca foi concluído, mas esse trabalho influenciou versões subsequentes.
+            </p>
+
+            <p>
+                Enquanto tudo isso acontecia, as comunidades de código aberto e de desenvolvedores começaram a trabalhar para revolucionar o que poderia ser feito com JavaScript. Esse esforço da comunidade surgiu em 2005, quando Jesse James Garrett lançou um white paper no qual cunhou o termo Ajax e descreveu um conjunto de tecnologias, das quais o JavaScript era o backbone, usado para criar aplicativos da Web onde os dados podem ser carregados em segundo plano, evitando a necessidade de recargas de páginas completas e levando a aplicativos mais dinâmicos. Isso resultou em um período de renascimento do uso do JavaScript liderado pelas bibliotecas de código aberto e pelas comunidades que se formaram em torno delas, com bibliotecas como Prototype, jQuery, Dojo Toolkit, MooTools e outras.
+            </p>
+
+            <p>
+                Em julho de 2008, os diferentes partidos de ambos os lados se reuniram em Oslo. Isso levou ao eventual acordo no início de 2009 para renomear o ECMAScript 3.1 para o ECMAScript 5 e impulsionar o idioma usando uma agenda que é conhecida como Harmonia. O ECMAScript 5 foi finalmente lançado em dezembro de 2009. Em junho de 2011, o ECMAScript 5.1 foi lançado para se alinhar totalmente com a terceira edição do padrão internacional ISO / IEC 16262. O ECMAScript 2015 foi lançado em junho de 2015. O ECMAScript 2016 foi lançado em junho de 2016. A versão atual é o ECMAScript 2017, lançado em junho de 2017.
+            </p>
+
+            <hr>
+
+            <h2 id="desenvolvimento">Desenvolvimentos posteriores</h2>
+
+            <div class="content-icon">
+                <img class="arrow-icon" src="assets/images/seta-para-cima.png" alt=" Imagem seta para cima">
+                <a href="#voltar">Voltar</a>
+            </div>
+
+            <p>
+                JavaScript tornou-se uma das linguagens de programação mais populares da web. No entanto, muitos programadores profissionais inicialmente desacreditaram a linguagem devido ao público-alvo percebido de autores da Web e outros "amadores". O advento do Ajax devolveu o JavaScript aos holofotes e atraiu mais atenção da programação profissional. O resultado foi a proliferação de estruturas e bibliotecas abrangentes, práticas de programação JavaScript aprimoradas e aumento do uso de JavaScript fora dos navegadores da Web, conforme observado pela proliferação de plataformas JavaScript do lado do servidor.
+            </p>
+
+            <p>
+                Em janeiro de 2009, o projeto CommonJS foi fundado com o objetivo de especificar uma biblioteca padrão comum principalmente para o desenvolvimento de JavaScript fora do navegador. Com o surgimento de aplicativos de página única e sites pesados em JavaScript, ele está sendo cada vez mais usado como um alvo de compilação para compiladores de origem para origem de linguagens dinâmicas e estáticas.
+            </p>
+
+            <hr>
+
+            <h2 id="marca">Marca comercial</h2>
+
+            <div class="content-icon">
+                <img class="arrow-icon" src="assets/images/seta-para-cima.png" alt="Imagem seta para cima">
+                <a href="#voltar">Voltar</a>
+            </div>
+            <p>
+                "JavaScript" é uma marca comercial da <a href="">Oracle Corporation</a> nos Estados Unidos. Ele é usado sob licença para tecnologia inventada e implementada pela <a href="">Netscape Communications</a> e entidades atuais, como a <a href="">Fundação Mozilla</a>.
+            </p>
+
+            <hr>
+
+            <h2 id="caracteristica">Características</h2>
+
+            <div class="content-icon">
+                <img class="arrow-icon" src="assets/images/seta-para-cima.png" alt="Imagem seta para cima">
+                <a href="#voltar">Voltar</a>
+            </div>
+            <p>
+                Todos os navegadores da Web modernos e populares suportam JavaScript com interpretadores integrados.
+            </p>
+
+            <h3>Imperativa e Estruturada</h3>
+
+            <p>
+                JavaScript suporta os elementos de sintaxe de programação estruturada da linguagem C como, por exemplo, <code>if</code>, <code>while</code>, <code>switch</code>. Uma exceção é a questão do escopo: o escopo em blocos ao estilo do C não é suportado. Em seu lugar, JavaScript utiliza escopo a nível de função. JavaScript 1.7, entretanto, suporta escopo a nível de bloco através do comando let. Como C, JavaScript faz distinção entre expressões e comandos. Uma diferença sintática do C é que a quebra de linha termina automaticamente o comando, sendo o ponto-e-vírgula opcional ao fim de uma instrução.
+            </p>
+
+            <h3>Dinâmica</h3>
+
+            <h4>Tipagem dinâmica</h4>
+
+            <p>
+                Como na maioria das linguagens de script, tipos são associados com valores, não com variáveis. Por exemplo, a variável x poderia ser associada a um número e mais tarde associada a uma ''string''. JavaScript suporta várias formas de testar o tipo de um objeto, incluindo duck typing.
+            </p>
+
+            <h4>Baseada em objetos</h4>
+
+            <p>
+                JavaScript é quase inteiramente baseada em objetos[carece de fontes]. Objetos JavaScript são arrays associativos, aumentados com protótipos. Os nomes da propriedade de um objeto são strings: <code>obj.x = 10 e obj["x"] = 10</code> são equivalentes, o ponto neste exemplo é apenas sintático. Propriedades e seus valores podem ser adicionadas, mudadas, ou deletadas em tempo de execução. A maioria das propriedades de um objeto (e aqueles em sua cadeia de herança via protótipo) pode ser enumerada usando-se uma estrutura de repetição <code>for...in</code>. JavaScript possui um pequeno número de objetos padrão da linguagem como window e document.
+            </p>
+
+            <h4>Avaliação em tempo de execução</h4>
+
+            <p>
+                JavaScript inclui a função eval que consegue executar em tempo de execução comandos da linguagem que estejam escritos em uma string.
+            </p>
+
+            <h3>Funcional</h3>
+
+            <h4>Funções de primeira classe</h4>
+
+            <p>
+                No JavaScript, as funções são de primeira classe, isto é, são objetos que possuem propriedades e métodos, e podem ser passados como argumentos, serem atribuídos a variáveis ou retornados como qualquer outro objeto.
+            </p>
+
+            <h4>Funções aninhadas</h4>
+
+            <p>
+                Funções 'internas' ou 'aninhadas' são funções definidas dentro de outras funções. São criadas cada vez que a função que as contém (externa) é invocada. Além disso, o escopo da função externa, incluindo constantes, variáveis locais e valores de argumento, se transforma parte do estado interno de cada objeto criado a partir da função interna, mesmo depois que a execução da função interna é concluída.
+            </p>
+
+            <h4>Fechamentos</h4>
+
+            <p>
+                JavaScript permite que funções aninhadas sejam criadas com o escopo léxico no momento de sua definição e possui o operador () para invocá-las em outro momento. Essa combinação de código que pode ser executado fora do escopo no qual foi definido, com seu próprio escopo durante a execução, é denominada, dentro da ciência da computação, fechamento.
+            </p>
+
+            <h4>Funções e métodos</h4>
+
+            <p>
+                Diferente de muitas linguagens orientadas a objetos, não há distinção entre a definição de uma função e a definição de um método no JavaScript. A distinção ocorre durante a chamada da função; a função pode ser chamada como um método. Quando uma função é chamada como método de um objeto, a keyword <code>this</code> da função é associada àquele objeto via tal invocação.
+            </p>
+
+
+            <h4>Exemplo</h4>
+
+            <figure>
+                <figcaption>
+                    <p>
+                        Um exemplo minimalista de uma página conforme os padrões web (utilizando a sintaxe HTML5) que contém JavaScript pode ser representado pelo seguinte código:
+                    </p>
+                </figcaption>
+                <img class="ex-code" src="assets/images/exemplo1.png" alt="Exemplo de código JvaScript">
+            </figure>
+
+            <hr>
+
+            <h2 id="conclusao">Conclusão</h2>
+
+            <div class="content-icon">
+                <img class="arrow-icon" src="assets/images/seta-para-cima.png" alt="Imagem seta para cima">
+                <a href="#voltar">Voltar</a>
+            </div>
+            <p>
+                JavaScript é uma linguagem de programação de alto nível, amplamente utilizada para desenvolvimento web, que possibilita a criação de páginas dinâmicas e interativas. Essencialmente, é interpretada pelos navegadores dos usuários, permitindo a manipulação e alteração do conteúdo HTML e CSS em tempo real. Sua versatilidade torna possível a criação de experiências de usuário envolventes, desde validação de formulários até a implementação de recursos avançados em aplicações web. Além disso, JavaScript desempenha um papel crucial no desenvolvimento de aplicativos do lado do cliente, contribuindo para a evolução constante da interatividade e responsividade na web. Em resumo, JavaScript é uma ferramenta poderosa que impulsiona a moderna experiência de navegação na internet.
+            </p>
+
+
+        </section>
+
+        <section class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#">O que é JavaScript?</a></li>
+                <li><a href="#hstoria">História</a></li>
+                <li><a href="#backend">JavaScript Back-end</a></li>
+                <li><a href="#padronizacao">Padromização</a></li>
+                <li><a href="#desenvolvimento">Desenvolvimento posteriores</a></li>
+                <li><a href="#marca">Marca comercial</a></li>
+                <li><a href="#caracteristica">Características</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>
